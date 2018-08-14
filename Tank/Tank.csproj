@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A626CBFA-AD5C-44DE-B9AC-502A21EB6D7F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tank</RootNamespace>
+    <AssemblyName>Tank</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tank.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>E:\有用的程序集\WinForm皮肤包\IrisSkin2.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX">
+      <HintPath>E:\有用的程序集\microsoft.directx\X86\9.15.779.0000\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound">
+      <HintPath>E:\有用的程序集\microsoft.directx.directsound\X86\9.15.779.0000\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blast.cs" />
+    <Compile Include="Born.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="EditFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditFrom.Designer.cs">
+      <DependentUpon>EditFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Element.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyMissile.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="GamePanl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Grass.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member.cs" />
+    <Compile Include="Missile.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="MyMissile.cs" />
+    <Compile Include="OverLogo.cs" />
+    <Compile Include="P1Tank.cs" />
+    <Compile Include="P2Tank.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roles.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Steel.cs" />
+    <Compile Include="Symbol.cs" />
+    <Compile Include="Wall.cs" />
+    <Compile Include="Water.cs" />
+    <EmbeddedResource Include="EditFrom.resx">
+      <DependentUpon>EditFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\born1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\born2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\born3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\born4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destory.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1L.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1R.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy1U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2L.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2R.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy3D.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy3L.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy3R.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy3U.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemymissile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mintank.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\over.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankD.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1tankU.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2tankD.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2tankL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2tankR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2tankU.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecttank.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steels.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tankmissile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walls.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1.gif" />
+    <Content Include="tank.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,60 @@
+G:\学习代码\坦克大战\Tank\Tank\bin\Debug\Tank.exe
+G:\学习代码\坦克大战\Tank\Tank\bin\Debug\Tank.pdb
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.MainForm.resources
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.Properties.Resources.resources
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csproj.GenerateResource.Cache
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.exe
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.pdb
+G:\学习代码\坦克大战\Tank\Tank\bin\Debug\Tank.exe.config
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.StartForm.resources
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.EditFrom.resources
+G:\学习代码\坦克大战\Tank\Tank\bin\Debug\Microsoft.DirectX.DirectSound.dll
+G:\学习代码\坦克大战\Tank\Tank\bin\Debug\Microsoft.DirectX.dll
+G:\学习代码\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csprojResolveAssemblyReference.cache
+G:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.exe.config
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.exe
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.pdb
+G:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.exe
+G:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.pdb
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csprojResolveAssemblyReference.cache
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.EditFrom.resources
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.MainForm.resources
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.Properties.Resources.resources
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.StartForm.resources
+G:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csproj.GenerateResource.Cache
+G:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\IrisSkin2.DLL
+F:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.exe.config
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.exe
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.pdb
+F:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.exe
+F:\学习代码\dotnet\坦克大战\Tank\Tank\bin\Debug\Tank.pdb
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csprojResolveAssemblyReference.cache
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.EditFrom.resources
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.MainForm.resources
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.Properties.Resources.resources
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.StartForm.resources
+F:\学习代码\dotnet\坦克大战\Tank\Tank\obj\x86\Debug\Tank.csproj.GenerateResource.Cache
+E:\源代码\dotnet\Tank\Tank\bin\Debug\Tank.exe.config
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.exe
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.pdb
+E:\源代码\dotnet\Tank\Tank\bin\Debug\Tank.exe
+E:\源代码\dotnet\Tank\Tank\bin\Debug\Tank.pdb
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.csprojResolveAssemblyReference.cache
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.EditFrom.resources
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.MainForm.resources
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.Properties.Resources.resources
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.StartForm.resources
+E:\源代码\dotnet\Tank\Tank\obj\x86\Debug\Tank.csproj.GenerateResource.Cache
+E:\source code\Tank\Tank\bin\Debug\Tank.exe.config
+E:\source code\Tank\Tank\bin\Debug\Tank.exe
+E:\source code\Tank\Tank\bin\Debug\Tank.pdb
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.csprojAssemblyReference.cache
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.EditFrom.resources
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.MainForm.resources
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.Properties.Resources.resources
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.StartForm.resources
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.csproj.GenerateResource.cache
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.csproj.CoreCompileInputs.cache
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.csproj.CopyComplete
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.exe
+E:\source code\Tank\Tank\obj\x86\Debug\Tank.pdb
